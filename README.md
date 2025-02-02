@@ -1,9 +1,3 @@
-You're right! The formatting for **Install Dependencies, Run the App, and Folder Structure** should be properly formatted with **code blocks** and structured clearly. Below is the **corrected** README with all sections properly formatted.  
-
----
-
-### ✅ **Final Corrected README.md**
-```markdown
 # BeyondChats Chatbot Setup UI  
 
 ## 🚀 Live Demo  
@@ -134,9 +128,6 @@ Special thanks to the **BeyondChats team** for their vision and contributions!
 4. Save the file (Ctrl + S or Cmd + S on Mac).  
 ```
 
-🚀 Now your project has a **well-structured, professional README**! Let me know if you need any changes. 😊  
-```
-
 ---
 
 ## 🔥 **What's Fixed in This Version?**
@@ -144,5 +135,3 @@ Special thanks to the **BeyondChats team** for their vision and contributions!
 ✅ **Correct Code Blocks for Setup & Commands**  
 ✅ **Clearer Folder Structure with Proper Indentation**  
 ✅ **Better Readability & Consistency**  
-
-Now it's **100% ready** to paste into **VS Code** and display properly on **GitHub**! 🚀
