@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.auth-container,
+.organisation-container,
+.scraping-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-width: 400px;
+  text-align: center;
+  margin: 20px;
+}
+
+input, button, textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.scraping-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.scraping-list {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.scraping-item {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 14px;
+  text-align: left;
+}
+
+.scraping-item strong {
+  display: block;
+  font-size: 16px;
+}
+
+.status {
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.scraped .status {
+  color: green;
+}
+
+.pending .status {
+  color: orange;
+}
+
+.in-progress .status {
+  color: blue;
+}
+
+.chunks-list {
+  margin-top: 5px;
+  padding-left: 15px;
+  font-size: 13px;
+  color: #555;
+}
+
+.proceed-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.proceed-button:hover {
+  background-color: #0056b3;
+}
+
+
+.dummy-container {
+  margin: 20px;
+  padding: 15px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.dummy-container h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.dummy-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dummy-container li {
+  padding: 5px 0;
+  font-size: 1rem;
+}
